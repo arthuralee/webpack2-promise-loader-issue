@@ -1,2 +1,5 @@
 import './a';
-import('./b');
+
+require.ensure([], (require) => {
+    require('./b.js');
+});
