@@ -1,3 +1,3 @@
-import lib from 'Home/lib';
+import lib from './lib';
 
 lib();
